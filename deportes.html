@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deportes - Portal Deportivo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+
+            <div class="container">
+
+                <a class="navbar-brand fw-bold" href="index.html">
+                    SportZone
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Inicio
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="deportes.html">
+                                Deportes
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="jugadores.html">
+                                Jugadores
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="galeria.html">
+                                Galería
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">
+                                Contacto
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <main class="pt-5 mt-5">
+
+        <section class="container text-center my-5">
+
+            <h1 class="display-4 fw-bold">
+                Deportes Populares
+            </h1>
+
+            <p class="lead">
+                Descubre algunos de los deportes más practicados y seguidos alrededor del mundo.
+            </p>
+
+        </section>
+        <section class="container my-5">
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+
+                    <div class="card shadow h-100">
+
+                        <img src="img/futbol.png" class="card-img-top" alt="Fútbol">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Fútbol
+                            </h5>
+
+                            <p class="card-text">
+                                El deporte más popular del mundo.
+                            </p>
+
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalFutbol">
+
+                                Ver más
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card shadow h-100">
+
+                        <img src="img/basquet.png" class="card-img-top" alt="Básquet">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Básquet
+                            </h5>
+
+                            <p class="card-text">
+                                Velocidad y estrategia.
+                            </p>
+
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBasket">
+
+                                Ver más
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card shadow h-100">
+
+                        <img src="img/voley.png" class="card-img-top" alt="Voleibol">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Voleibol
+                            </h5>
+
+                            <p class="card-text">
+                                Coordinación y trabajo en equipo.
+                            </p>
+
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalVoley">
+
+                                Ver más
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card shadow h-100">
+
+                        <img src="img/tenis.png" class="card-img-top" alt="Tennis">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Tennis
+                            </h5>
+
+                            <p class="card-text">
+                                Precisión, resistencia y técnica individual.
+                            </p>
+
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTennis">
+
+                                Ver más
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card shadow h-100">
+
+                        <img src="img/natacion.webp" class="card-img-top" alt="Natación">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Natación
+                            </h5>
+
+                            <p class="card-text">
+                                Ejercicio completo que mejora resistencia y salud.
+                            </p>
+
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalNatacion">
+
+                                Ver más
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card shadow h-100">
+
+                        <img src="img/beisbol.png" class="card-img-top" alt="Béisbol">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Béisbol
+                            </h5>
+
+                            <p class="card-text">
+                                Juego de bateo y estrategia de equipo.
+                            </p>
+
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalBeisbol">
+
+                                Ver más
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card shadow h-100">
+
+                        <img src="img/rugby.png" class="card-img-top" alt="Rugby">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Rugby
+                            </h5>
+
+                            <p class="card-text">
+                                Deporte de contacto con mucha táctica y fuerza.
+                            </p>
+
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalRugby">
+
+                                Ver más
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card shadow h-100">
+
+                        <img src="img/hockey.png" class="card-img-top" alt="Hockey">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Hockey
+                            </h5>
+
+                            <p class="card-text">
+                                Velocidad y estrategia.
+                            </p>
+
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalHockey">
+
+                                Ver más
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="card shadow h-100">
+
+                        <img src="img/pingpon.png" class="card-img-top" alt="Ping Pong">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Ping Pong
+                            </h5>
+
+                            <p class="card-text">
+                                Coordinación y trabajo en equipo.
+                            </p>
+
+                            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalPingPong">
+
+                                Ver más
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="container my-5">
+
+            <h2 class="text-center mb-4">
+                Reglas Básicas de los Deportes
+            </h2>
+
+        </section>
+        <section class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionLeft2">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="a1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#c1" aria-expanded="false" aria-controls="c1">
+                                    ⚽ Fútbol
+                                </button>
+                            </h2>
+                            <div id="c1" class="accordion-collapse collapse" aria-labelledby="a1"
+                                data-bs-parent="#accordionLeft2">
+                                <div class="accordion-body">11 jugadores por equipo, 2 quipos, 90 minutos de juego.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="a2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#c2" aria-expanded="false" aria-controls="c2">
+                                    🏀 Básquet
+                                </button>
+                            </h2>
+                            <div id="c2" class="accordion-collapse collapse" aria-labelledby="a2"
+                                data-bs-parent="#accordionLeft2">
+                                <div class="accordion-body">5 jugadores por equipo, 2 quipos, 4 periodos de 12 minutos
+                                    cada uno.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="a3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#c3" aria-expanded="false" aria-controls="c3">
+                                    🏐 Voleibol
+                                </button>
+                            </h2>
+                            <div id="c3" class="accordion-collapse collapse" aria-labelledby="a3"
+                                data-bs-parent="#accordionLeft2">
+                                <div class="accordion-body">6 jugadores por equipo, 2 quipos, 5 sets de juego.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="a4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#c4" aria-expanded="false" aria-controls="c4">
+                                    🎾 Tenis
+                                </button>
+                            </h2>
+                            <div id="c4" class="accordion-collapse collapse" aria-labelledby="a4"
+                                data-bs-parent="#accordionLeft2">
+                                <div class="accordion-body">Juego de raqueta y estrategia de equipo.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="accordion" id="accordionRight2">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="b1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#d1" aria-expanded="false" aria-controls="d1">
+                                    🏊 Natación
+                                </button>
+                            </h2>
+                            <div id="d1" class="accordion-collapse collapse" aria-labelledby="b1"
+                                data-bs-parent="#accordionRight2">
+                                <div class="accordion-body">Ejercicio completo que mejora resistencia y salud.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="b2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#d2" aria-expanded="false" aria-controls="d2">
+                                    ⚾ Béisbol
+                                </button>
+                            </h2>
+                            <div id="d2" class="accordion-collapse collapse" aria-labelledby="b2"
+                                data-bs-parent="#accordionRight2">
+                                <div class="accordion-body">Juego de bateo y estrategia de equipo.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="b3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#d3" aria-expanded="false" aria-controls="d3">
+                                    🏉 Rugby
+                                </button>
+                            </h2>
+                            <div id="d3" class="accordion-collapse collapse" aria-labelledby="b3"
+                                data-bs-parent="#accordionRight2">
+                                <div class="accordion-body">Deporte de contacto con mucha táctica y fuerza.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="b4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#d4" aria-expanded="false" aria-controls="d4">
+                                    🏒 Hockey
+                                </button>
+                            </h2>
+                            <div id="d4" class="accordion-collapse collapse" aria-labelledby="b4"
+                                data-bs-parent="#accordionRight2">
+                                <div class="accordion-body">Velocidad, precisión y trabajo en equipo.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="modalFutbol" tabindex="-1">
+
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">⚽ Fútbol</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <p><strong>Historia:</strong> Surgió en Inglaterra durante el siglo XIX.</p>
+
+                        <p><strong>Jugadores:</strong> 11 por equipo.</p>
+
+                        <p><strong>Duración:</strong> 90 minutos.</p>
+
+                        <p><strong>Beneficios:</strong> Mejora resistencia, velocidad y trabajo en equipo.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modalBasket" tabindex="-1">
+
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">🏀 Básquet</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <p><strong>Historia:</strong> Creado por James Naismith en 1891.</p>
+
+                        <p><strong>Jugadores:</strong> 5 por equipo.</p>
+
+                        <p><strong>Duración:</strong> 4 cuartos.</p>
+
+                        <p><strong>Beneficios:</strong> Desarrolla reflejos y coordinación.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modalVoley" tabindex="-1">
+
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">🏐 Voleibol</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <p><strong>Historia:</strong> Inventado en Estados Unidos en 1895.</p>
+
+                        <p><strong>Jugadores:</strong> 6 por equipo.</p>
+
+                        <p><strong>Duración:</strong> Al mejor de 5 sets.</p>
+
+                        <p><strong>Beneficios:</strong> Favorece coordinación y agilidad.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modalTennis" tabindex="-1">
+
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">🎾 Tenis</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <p><strong>Jugadores:</strong> Individual o dobles.</p>
+
+                        <p><strong>Beneficios:</strong> Mejora reflejos y concentración.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modalNatacion" tabindex="-1">
+
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">🏊 Natación</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <p><strong>Beneficios:</strong> Trabaja todo el cuerpo y mejora la capacidad pulmonar.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modalBeisbol" tabindex="-1">
+
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">⚾ Béisbol</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <p>Dos equipos alternan entre batear y defender.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modalRugby" tabindex="-1">
+
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">🏉 Rugby</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <p>Combina fuerza, velocidad y estrategia.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modalHockey" tabindex="-1">
+
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">🏑 Hockey</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <p>Los jugadores usan un stick para marcar goles.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="modalPingPong" tabindex="-1">
+
+            <div class="modal-dialog modal-dialog-centered">
+
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">🏓 Ping Pong</h5>
+                        <button class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+
+                        <p>También conocido como tenis de mesa.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="text-center py-4">
+
+        <p class="mb-0">
+            © 2026 SportZone - Proyecto Final Desarrollo Web
+        </p>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
